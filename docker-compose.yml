@@ -32,7 +32,7 @@ services:
       - "5432:5432"
     environment:
       - DB_HOST=127.0.0.1
-      - POSTGRES_DB=devdb
+      - POSTGRES_DB=devdb-user
       - POSTGRES_USER=devuser
       - POSTGRES_PASSWORD=changeme
 
